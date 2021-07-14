@@ -43,6 +43,7 @@
     padding: 0%;
     font-style: italic;
     font-family: cursive;
+    margin: 0;
 }
     
 .nametag {
@@ -63,4 +64,31 @@
     border-bottom-right-radius: 3rem;
     
 
+}
+#word-input {
+    background-color: rgba(173, 152, 56, 0.664);
+    margin-left: 110px;
+    border-radius: 1.5rem;
+    
+    
+}
+
+#change-button {
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 1.5rem;
+}
+
+
+
+#head-stone {
+    font-weight: 800;
+    visibility: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#head-stoneimg {
+    visibility: hidden;
+    margin-top: 2rem;
+    margin-left: 15%;
 }
