@@ -4,6 +4,7 @@ const headerEl = document.getElementById('changed-name');
 const protestEl = document.getElementById('protest');
 const headstoneEl = document.getElementById('head-stone');
 const headstoneimgEl = document.getElementById('head-stoneimg');
+const trappedEl = document.getElementById('trapped');
 
 // 0) give your button an id
 // 1) grab the button from the DOM
@@ -26,4 +27,5 @@ buttonEl.addEventListener('click', () => {
     protestEl.style.fontSize = '2.15em'
     headstoneEl.style.visibility = 'visible'
     headstoneimgEl.style.visibility = 'visible'
+    trappedEl.style.visibility = 'visible'
 });

@@ -92,3 +92,7 @@
     margin-top: 2rem;
     margin-left: 15%;
 }
+
+#trapped {
+    visibility: hidden;
+}
